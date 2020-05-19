@@ -1,0 +1,39 @@
+{
+  "id": "556f871b-eeef-4214-a6e4-a172e470e3ec",
+  "parentId": "6acc4812-ef03-474a-9659-b2fc57fd4cdd",
+  "rootParentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "name": "Delivery - cost",
+  "auto": true,
+  "contexts": [
+    "Delivery-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "Всё зависит от адреса доставки. Куда, кстати, доставить?",
+            "Скажи пожалуйста, куда доставить, и мы сможем посчитать стоимость",
+            "Смотря куда будем доставлять. А куда, кстати, будем доставлять?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

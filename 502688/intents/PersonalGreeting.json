@@ -1,0 +1,47 @@
+{
+  "id": "8a5249cc-de39-488a-9dd8-4e382415e4c0",
+  "name": "PersonalGreeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c524f57c-c675-4953-aa8e-e6aabc3ad4fb",
+          "required": false,
+          "dataType": "",
+          "name": "name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": "Здравствуйте, $name!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PersonalGreeting"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

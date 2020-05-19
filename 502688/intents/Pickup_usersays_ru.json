@@ -1,0 +1,86 @@
+[
+  {
+    "id": "68e7aa0f-6525-48cf-80d8-463471bbb39a",
+    "data": [
+      {
+        "text": "сам вывезу",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b46fcdf9-b16c-439d-b299-57facb27d09c",
+    "data": [
+      {
+        "text": "из вашего ",
+        "userDefined": false
+      },
+      {
+        "text": "магазина",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1ab7c519-05c2-4fa6-a082-c7bce411872a",
+    "data": [
+      {
+        "text": "в точку",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da8ba196-e096-4caa-a2de-356a883127a5",
+    "data": [
+      {
+        "text": "в магазин",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f563fab7-904a-47d0-9f39-787f901b48e4",
+    "data": [
+      {
+        "text": "Сам ",
+        "userDefined": false
+      },
+      {
+        "text": "заберу",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0239c501-d92e-4eaf-8cc0-8061d97d2554",
+    "data": [
+      {
+        "text": "Самовывоз",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

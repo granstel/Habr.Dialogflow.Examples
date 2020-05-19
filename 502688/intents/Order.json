@@ -1,0 +1,54 @@
+{
+  "id": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "name": "Order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Order-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "17512483-20fa-4dad-aaef-6e1bb3a91186",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "Как ты хочешь получить нашу $any - из точки самовывоза, или доставить её к тебе?",
+            "Заберёшь $any из магазина, или привезти прямо к тебе?",
+            "Где удобнее получить $any - в магазине, или доставить по адресу?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

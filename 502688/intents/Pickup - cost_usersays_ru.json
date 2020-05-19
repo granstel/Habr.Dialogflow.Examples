@@ -1,0 +1,50 @@
+[
+  {
+    "id": "28a34855-44ca-4741-be73-71270a6971a1",
+    "data": [
+      {
+        "text": "сколько вы с меня за это возьмёте",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "971bc0b9-9144-4000-9ceb-59999226339a",
+    "data": [
+      {
+        "text": "какой ценой",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4bcd86b0-f89c-49e6-bef1-b540149d7998",
+    "data": [
+      {
+        "text": "сколько стоит",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48e92b88-468d-4daf-8fce-28749ba9dec2",
+    "data": [
+      {
+        "text": "а сколько это будет стоить",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

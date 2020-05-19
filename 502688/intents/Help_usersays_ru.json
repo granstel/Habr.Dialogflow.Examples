@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aa82c773-a67d-48b6-9e4d-4c529db4ab1e",
+    "data": [
+      {
+        "text": "зачем это",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c62acbe-0a06-42f7-818d-9e1ffdd390a3",
+    "data": [
+      {
+        "text": "Для чего?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88edf706-a65a-4ddb-a110-071313f405ee",
+    "data": [
+      {
+        "text": "Зачем это?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26733621-a328-425a-a69f-93ffa20bff77",
+    "data": [
+      {
+        "text": "Зачем?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c061d38-6d64-42dc-9aa4-c9a3beb3a5d6",
+    "data": [
+      {
+        "text": "А зачем это всё?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

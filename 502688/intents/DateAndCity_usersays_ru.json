@@ -1,0 +1,108 @@
+[
+  {
+    "id": "638bc276-2ec8-4774-a3ab-bdf570486630",
+    "data": [
+      {
+        "text": "Расскажи про ",
+        "userDefined": false
+      },
+      {
+        "text": "май",
+        "alias": "datesPeriod",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94297f43-ae4c-49d7-8041-d058c476ba3f",
+    "data": [
+      {
+        "text": "Что произойдёт ",
+        "userDefined": false
+      },
+      {
+        "text": "сегодня",
+        "alias": "requestedDate",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " в ",
+        "userDefined": false
+      },
+      {
+        "text": "Минске",
+        "alias": "city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "447b1dbe-2a8c-4699-82ec-77d43617c36b",
+    "data": [
+      {
+        "text": "Что может быть ",
+        "userDefined": false
+      },
+      {
+        "text": "послезавтра",
+        "alias": "requestedDate",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " в ",
+        "userDefined": false
+      },
+      {
+        "text": "Москве",
+        "alias": "city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84948da2-71de-415d-8bcf-9b4b609297c6",
+    "data": [
+      {
+        "text": "Что будет ",
+        "userDefined": false
+      },
+      {
+        "text": "завтра",
+        "alias": "requestedDate",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " в ",
+        "userDefined": false
+      },
+      {
+        "text": "Питере",
+        "alias": "city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

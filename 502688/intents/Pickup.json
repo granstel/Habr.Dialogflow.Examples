@@ -1,0 +1,45 @@
+{
+  "id": "98a643fb-f943-4a2d-a2ea-2a923438d4df",
+  "parentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "rootParentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "name": "Pickup",
+  "auto": true,
+  "contexts": [
+    "Order-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Pickup-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "В каком из магазинов хочешь забрать?",
+            "В каком магазине тебе удобнее забрать?",
+            "У нас есть несколько пунктов выдачи, тебе какой удобнее?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

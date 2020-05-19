@@ -1,0 +1,81 @@
+{
+  "id": "c567f5df-eedf-487e-8e8a-3be9ec2b07a3",
+  "name": "DateAndCity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "099d1782-5d12-46d8-be0b-10bd6ad49136",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "requestedDate",
+          "value": "$requestedDate",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "bb50e776-cff4-414d-813e-0ea55e43fe82",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "city",
+          "value": "$city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "33a3d814-5fac-4118-b321-bcf9700ac5b4",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "name": "datesPeriod",
+          "value": "$datesPeriod",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "$requestedDate - чтобы там ни было, $city запомнит этот день",
+            "$requestedDate - $city не забудет этот день",
+            "Сто процентов, что $city надолго запомнит $requestedDate"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "ru",
+          "condition": "",
+          "payload": {
+            "RequestedDateOriginal": "$requestedDate.Original",
+            "CityOriginal": "$city.original"
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

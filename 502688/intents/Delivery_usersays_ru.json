@@ -1,0 +1,251 @@
+[
+  {
+    "id": "15d4f279-0ed8-456d-9483-4f5a5b4f9017",
+    "data": [
+      {
+        "text": "доставьте по адресу ",
+        "userDefined": false
+      },
+      {
+        "text": "улица Ленина дом 33",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0c6167a-cb07-46ee-823d-453013a2ffdc",
+    "data": [
+      {
+        "text": "доставьте в ",
+        "userDefined": false
+      },
+      {
+        "text": "Хабр",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "улица ленина дом 33",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e594fac3-8bb9-43d2-be1c-2e46e3ebd072",
+    "data": [
+      {
+        "text": "доставьте в ",
+        "userDefined": false
+      },
+      {
+        "text": "Хабр",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " по адресу ",
+        "userDefined": false
+      },
+      {
+        "text": "улица ленина дом 33",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d58e7bc-bfc3-48b8-b8e5-c943a00e6892",
+    "data": [
+      {
+        "text": "+",
+        "userDefined": false
+      },
+      {
+        "text": "79996665855",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1095f01-41a5-4ef3-8fb4-a237461f18b3",
+    "data": [
+      {
+        "text": "Питер",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "улица ленина 34,",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      },
+      {
+        "text": " номер ",
+        "userDefined": false
+      },
+      {
+        "text": "79997775544",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb999aee-330a-4056-8f45-6e59a9410204",
+    "data": [
+      {
+        "text": "Доставьте в ",
+        "userDefined": false
+      },
+      {
+        "text": "Москву",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " адрес ",
+        "userDefined": false
+      },
+      {
+        "text": "3-я рыбинская 18с22",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "89264445522",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9ea85d6e-c839-4186-9967-014f2f19faf3",
+    "data": [
+      {
+        "text": "Адрес ",
+        "userDefined": false
+      },
+      {
+        "text": "доставки",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "БЦ Буревестник, 3-я рыбинская 18с22",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Москва",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "78885556677",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6dd8346-a562-4d53-ac98-2017fa0b85ca",
+    "data": [
+      {
+        "text": "Доставьте в ",
+        "userDefined": false
+      },
+      {
+        "text": "Хабаровск",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " по адресу ",
+        "userDefined": false
+      },
+      {
+        "text": "Ленина 29",
+        "alias": "address",
+        "meta": "@sys.address",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "25559998865",
+        "alias": "phone-number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

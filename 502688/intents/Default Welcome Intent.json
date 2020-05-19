@@ -1,0 +1,48 @@
+{
+  "id": "d1a3fb5a-250f-4548-9d70-0e6a4af81607",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "Привет! Как тебя зовут?",
+            "Здравствуй! Представься, пожалуйста",
+            "Добрый день! Скажи, пожалуйста, своё имя"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "ru",
+          "condition": "",
+          "payload": {
+            "Type": "Greetings",
+            "Text": "Я хочу знать твоё имя!"
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

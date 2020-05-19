@@ -1,0 +1,119 @@
+{
+  "id": "6acc4812-ef03-474a-9659-b2fc57fd4cdd",
+  "parentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "rootParentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "name": "Delivery",
+  "auto": true,
+  "contexts": [
+    "Order-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Delivery-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "58e4319d-a9c3-452b-8d4c-34f10fff9b55",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "ru",
+              "value": "Скажи свой адрес, пожалуйста"
+            },
+            {
+              "lang": "ru",
+              "value": "Напомни пожалуйста свой адрес"
+            },
+            {
+              "lang": "ru",
+              "value": "Подскажи пожалуйста свой адрес"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e269fcfd-287b-4c55-9005-93a8cbda24f9",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "ru",
+              "value": "В какой город?"
+            },
+            {
+              "lang": "ru",
+              "value": "Какой город?"
+            },
+            {
+              "lang": "ru",
+              "value": "А какой город?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8aa9944c-7137-4235-b97f-5502887e8b9b",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "ru",
+              "value": "Подскажи пожалуйста номер телефона"
+            },
+            {
+              "lang": "ru",
+              "value": "Скажи ещё номер телефона пожалуйста"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": [
+            "Итак, доставляем #Order-followup.$any в город $geo-city, адрес $address, связь по номеру $phone-number. Всё верно?",
+            "Давай проверим: нам надо доставить #Order-followup.$any в город $geo-city, $address, звонить на $phone-number. Всё верно?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

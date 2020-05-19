@@ -1,0 +1,33 @@
+{
+  "id": "e317bc6d-1218-4ce3-ba4a-946eacdeefe2",
+  "name": "Delivery phone number help",
+  "auto": true,
+  "contexts": [
+    "delivery_dialog_params_phone-number"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": "Он нужен, чтобы курьер мог связаться с тобой"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

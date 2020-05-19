@@ -1,0 +1,187 @@
+[
+  {
+    "id": "08d3c2d6-d9de-45c9-82dc-9621124def12",
+    "data": [
+      {
+        "text": "ЗДрасьте,",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " хочу заказать вашу ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77d5c4c3-ac9f-4c5d-b454-cc591d2f5c2e",
+    "data": [
+      {
+        "text": "хочу заказать вашу ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2378a53-8707-44cb-85cd-92a5971d4185",
+    "data": [
+      {
+        "text": "хочу купить ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e53a9e51-5543-4e63-99fd-497746f2acab",
+    "data": [
+      {
+        "text": "хочу вашу ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "b4991587-e287-4228-a9d3-0ea5543bf750",
+    "data": [
+      {
+        "text": "хочу вашу ",
+        "userDefined": false
+      },
+      {
+        "text": "крутую штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da69d0eb-2c20-430c-8ed7-a18840ea71e6",
+    "data": [
+      {
+        "text": "заказываю ваш ",
+        "userDefined": false
+      },
+      {
+        "text": "крутую штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ded567ff-7e66-4ebf-97be-feb5cb1af294",
+    "data": [
+      {
+        "text": "хочу ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "884c445c-2c7f-4055-9355-b07c9f24b22f",
+    "data": [
+      {
+        "text": "хочу заказать ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30876279-2ab3-4524-9516-91828f318936",
+    "data": [
+      {
+        "text": "Закажу эту ",
+        "userDefined": false
+      },
+      {
+        "text": "классную штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13eab423-2109-4758-80b2-137a26ddba04",
+    "data": [
+      {
+        "text": "Заказываю эту ",
+        "userDefined": false
+      },
+      {
+        "text": "крутую штуку",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "a14b792e-4306-4220-bd67-172628f3320c",
+  "parentId": "98a643fb-f943-4a2d-a2ea-2a923438d4df",
+  "rootParentId": "93838a48-22cd-4843-88c7-c1391c4deb1f",
+  "name": "Pickup - fallback",
+  "auto": false,
+  "contexts": [
+    "Pickup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": "Погоди, не отвлекайся, давай уже закончим с самовывозом. Так где ты хочешь забрать свою покупку?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "fca41368-8698-4bc7-94b5-57ffed6a4497",
+    "data": [
+      {
+        "text": "в тот магазин у ",
+        "userDefined": false
+      },
+      {
+        "text": "метро красные ворота",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83e61678-b6e8-43e2-8975-6c2c787aac33",
+    "data": [
+      {
+        "text": "на бабушкинскую",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "39a41dec-4d2e-471a-afba-51dd1298ac91",
+    "data": [
+      {
+        "text": "в магазин у ",
+        "userDefined": false
+      },
+      {
+        "text": "сокольников",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c0c21d9-5f82-40d6-b681-a7e9acd538dc",
+    "data": [
+      {
+        "text": "красносельская",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad2a9c1c-4753-42ae-8d30-c5dc93057ed6",
+    "data": [
+      {
+        "text": "на ",
+        "userDefined": false
+      },
+      {
+        "text": "сухаревскую",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19b0d830-64bc-4911-ae74-b88dad93c039",
+    "data": [
+      {
+        "text": "на комсомольскую",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

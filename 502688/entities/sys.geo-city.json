@@ -1,0 +1,9 @@
+{
+  "id": "ef4b3d10-526c-4c1d-8aa4-f070038d8320",
+  "name": "sys.geo-city",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
