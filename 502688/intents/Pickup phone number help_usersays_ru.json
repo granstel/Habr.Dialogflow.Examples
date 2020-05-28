@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4e56e86c-1bb1-4a29-b5cf-eefebe4c64bb",
+    "data": [
+      {
+        "text": "хочу",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dafd74f1-a2ec-43e9-92a1-48aa1930f0e9",
+    "data": [
+      {
+        "text": "для чего",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d319f22f-700e-4a32-90c5-46047178f817",
+    "data": [
+      {
+        "text": "зачем это",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70d27544-071b-4f64-a7c2-32d5d16f9cb8",
+    "data": [
+      {
+        "text": "а зачем",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

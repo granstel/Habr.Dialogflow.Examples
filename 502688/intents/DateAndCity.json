@@ -9,7 +9,7 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "099d1782-5d12-46d8-be0b-10bd6ad49136",
+          "id": "bb3e9a60-f3b5-4104-9ae6-40d28e80eebd",
           "required": false,
           "dataType": "@sys.date",
           "name": "requestedDate",
@@ -21,7 +21,7 @@
           "isList": false
         },
         {
-          "id": "bb50e776-cff4-414d-813e-0ea55e43fe82",
+          "id": "7e5183e8-fc47-4a2e-ab71-e78dc121d676",
           "required": false,
           "dataType": "@sys.geo-city",
           "name": "city",
@@ -33,11 +33,23 @@
           "isList": false
         },
         {
-          "id": "33a3d814-5fac-4118-b321-bcf9700ac5b4",
+          "id": "6f8d27ba-b673-403d-828c-0ce71a2997c0",
           "required": false,
           "dataType": "@sys.date-period",
           "name": "datesPeriod",
           "value": "$datesPeriod",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "68967023-688b-4333-a3ba-7351a3031a92",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -50,19 +62,17 @@
           "type": 0,
           "lang": "ru",
           "condition": "",
-          "speech": [
-            "$requestedDate - чтобы там ни было, $city запомнит этот день",
-            "$requestedDate - $city не забудет этот день",
-            "Сто процентов, что $city надолго запомнит $requestedDate"
-          ]
+          "speech": "Диапазон дат: $datesPeriod; «цельная» дата: $requestedDate; полное название города: $city; группа: $music-artist"
         },
         {
           "type": 4,
           "lang": "ru",
           "condition": "",
           "payload": {
-            "RequestedDateOriginal": "$requestedDate.Original",
-            "CityOriginal": "$city.original"
+            "cityOriginal": "$city.original",
+            "requestedDateOriginal": "$requestedDate.original",
+            "datesPeriodOriginal": "$datesPeriod.Original",
+            "musicArtistOriginal": "$music-artist.Original"
           }
         }
       ],

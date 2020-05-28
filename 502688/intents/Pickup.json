@@ -17,7 +17,25 @@
           "lifespan": 2
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "84158b1e-96e9-4580-a3f4-cbd054ff9211",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone",
+          "prompts": [
+            {
+              "lang": "ru",
+              "value": "Подскажи плиз номер телефона"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,

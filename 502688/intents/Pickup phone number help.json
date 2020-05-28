@@ -1,0 +1,33 @@
+{
+  "id": "0f0dc87d-da5b-465d-b39d-2b547b198cfc",
+  "name": "Pickup phone number help",
+  "auto": true,
+  "contexts": [
+    "pickup_dialog_params_phone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "condition": "",
+          "speech": "Мы позвоним на него, чтобы сообщить о доставке"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

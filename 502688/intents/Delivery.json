@@ -10,6 +10,7 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "Delivery",
       "affectedContexts": [
         {
           "name": "Delivery-followup",
@@ -19,7 +20,7 @@
       ],
       "parameters": [
         {
-          "id": "58e4319d-a9c3-452b-8d4c-34f10fff9b55",
+          "id": "eef18334-e1af-4e55-8d1f-d537b1167344",
           "required": true,
           "dataType": "@sys.address",
           "name": "address",
@@ -45,7 +46,7 @@
           "isList": false
         },
         {
-          "id": "e269fcfd-287b-4c55-9005-93a8cbda24f9",
+          "id": "c836854f-d5c2-4e16-8772-4c3eda5e1a57",
           "required": true,
           "dataType": "@sys.geo-city",
           "name": "geo-city",
@@ -71,7 +72,7 @@
           "isList": false
         },
         {
-          "id": "8aa9944c-7137-4235-b97f-5502887e8b9b",
+          "id": "e796e470-1386-4713-bd02-2b2bce69669a",
           "required": true,
           "dataType": "@sys.phone-number",
           "name": "phone-number",
@@ -99,8 +100,8 @@
           "lang": "ru",
           "condition": "",
           "speech": [
-            "Итак, доставляем #Order-followup.$any в город $geo-city, адрес $address, связь по номеру $phone-number. Всё верно?",
-            "Давай проверим: нам надо доставить #Order-followup.$any в город $geo-city, $address, звонить на $phone-number. Всё верно?"
+            "Итак, доставляем #Order-followup.any в город $geo-city, адрес $address, связь по номеру $phone-number. Всё верно?",
+            "Давай проверим: нам надо доставить #Order-followup.any в город $geo-city, $address, звонить на $phone-number. Всё верно?"
           ]
         }
       ],

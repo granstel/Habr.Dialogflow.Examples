@@ -1,16 +1,46 @@
 [
   {
-    "id": "638bc276-2ec8-4774-a3ab-bdf570486630",
+    "id": "f0404eb9-1650-4e97-952c-0336f43dc9fe",
     "data": [
       {
-        "text": "Расскажи про ",
+        "text": "Rammstein",
+        "alias": "music-artist",
+        "meta": "@sys.music-artist",
         "userDefined": false
       },
       {
-        "text": "май",
+        "text": " будет выступать в ",
+        "userDefined": false
+      },
+      {
+        "text": "Питере",
+        "alias": "city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "завтра",
+        "alias": "requestedDate",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ", или в ",
+        "userDefined": false
+      },
+      {
+        "text": "июне",
         "alias": "datesPeriod",
         "meta": "@sys.date-period",
-        "userDefined": true
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
       }
     ],
     "isTemplate": false,

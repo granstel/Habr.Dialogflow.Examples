@@ -24,8 +24,8 @@
           "lang": "ru",
           "condition": "",
           "payload": {
-            "Type": "Greetings",
-            "Text": "Я хочу знать твоё имя!"
+            "Text": "Я хочу знать твоё имя!",
+            "Type": "Greetings"
           }
         }
       ],
@@ -40,6 +40,9 @@
   "events": [
     {
       "name": "WELCOME"
+    },
+    {
+      "name": "CustomEvent"
     }
   ],
   "conditionalResponses": [],
